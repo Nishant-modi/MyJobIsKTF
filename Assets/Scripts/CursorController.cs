@@ -29,7 +29,7 @@ public class CursorController : MonoBehaviour
         {
             worldPos = Vector3.zero;
         }
-        worldPos.z -= 0.05f;
+        worldPos.z -= 0.15f;
 
         transform.position = worldPos;
     }
