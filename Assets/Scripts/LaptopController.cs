@@ -26,29 +26,33 @@ public class LaptopController : MonoBehaviour
     public void OpenWeatherWindow()
     {
         homeWindow.SetActive(false);
+        calendarWindow.SetActive(false);
         weatherWindow.SetActive(true);
     }
 
     public void OpenEmailWindow()
     {
         homeWindow.SetActive(false);
+        calendarWindow.SetActive(false);
         emailWindow.SetActive(true);
     }
 
     public void OpenPhonebookWindow()
     {
         homeWindow.SetActive(false);
+        calendarWindow.SetActive(false);
         phonebookWindow.SetActive(true);
     }
 
     public void OpenNewsWindow()
     {
         homeWindow.SetActive(false);
+        calendarWindow.SetActive(false);
         newsWindow.SetActive(true);
     }
     public void OpenCalendarWindow()
     {
-        homeWindow.SetActive(false);
+       // homeWindow.SetActive(false);
         calendarWindow.SetActive(true);
     }
 
